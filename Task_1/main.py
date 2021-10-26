@@ -24,4 +24,4 @@ def max_intelligence_hero(hero_list):
     return buf
 
 
-print(max_intelligence_hero(hero_name_list))
+print(f'The smartest hero {max_intelligence_hero(hero_name_list)}')
