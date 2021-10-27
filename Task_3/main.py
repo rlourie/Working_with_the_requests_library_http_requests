@@ -15,7 +15,6 @@ def get_questions(tag):
     }
 
     resp = requests.get('https://api.stackexchange.com/2.3/questions', params=params)
-    pprint(resp.json())
     if resp.status_code == 200:
         print("GOOD")
     else:
