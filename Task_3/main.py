@@ -10,6 +10,8 @@ def get_questions(tag):
     params = {
         'fromdate': start_date,
         'todate': end_date,
+        'order': "desc",
+        'sort': "activity",
         'tagged': tag,
         'site': 'stackoverflow'
     }
